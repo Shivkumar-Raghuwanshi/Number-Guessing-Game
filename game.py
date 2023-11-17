@@ -20,6 +20,7 @@ while(count<minimumChances):
     # Condition Checking
     if randomNumber == guess:
         print('Congratulations you did it in ', count, "attempt")
+        break
     elif randomNumber > guess:
         print("Your guessed number is less than the target!")
     elif randomNumber < guess:
